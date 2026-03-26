@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* INICIO RESET CSS */
 * {
   margin: 0;
@@ -8,6 +10,7 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul, ol {
@@ -19,4 +22,82 @@ img {
   display: block;
 }
 /*FIM DO RESET CSS*/
+
+#container-bg{
+  background-color: #1F2937;
+  height: 85vh;
+}
+
+#container{
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    padding-bottom: 96px;
+    
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+}
+
+
+#header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  margin-bottom: 80px;
+}
+
+.header-logo{
+  font-size: 32px;
+  color: #F9FAF8;
+  font-weight: 700;
+}
+
+.header-menu{
+  display: flex;
+  gap: 24px;
+}
+
+.header-menu li a{
+  color: #E5E7EB;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.left, .right{
+  flex: 1;
+}
+
+.title{
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.desc{
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 24px;
+}
+
+.button{
+  background-color: #3882F6;
+  color: #FFF;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.right img{
+  width: 100%;
+}
+
+/* CABEÇALHO TERMINADO !!!*/
 
