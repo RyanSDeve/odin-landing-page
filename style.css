@@ -85,14 +85,15 @@ img {
 .desc{
   font-size: 18px;
   color: #E5E7EB;
-  margin-bottom: 24px;
+  margin-bottom: 56px;
 }
 
 .button{
   background-color: #3882F6;
   color: #FFF;
-  padding: 8px 24px;
+  padding: 12px 24px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .right img{
@@ -101,3 +102,36 @@ img {
 
 /* CABEÇALHO TERMINADO !!!*/
 
+/* SEÇÃO DOS CARDS */
+
+.more-info{
+  height: 70vh;
+  padding: 56px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+
+.more-info h2{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.container-cards{
+  display: flex;
+  gap: 32px;
+}
+
+.card{
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+
+.card-img img{
+  border-radius: 8px;
+}
