@@ -166,3 +166,48 @@ img {
   font-size: 18px;
   text-align: right;
 }
+
+/* SECAO CALL TO ACTION */
+
+.container-call{
+  max-width: 1100px;
+  height: 50vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call{
+  width: 100%;
+  background-color: #3882F6;
+  padding: 48px 120px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-title{
+  color: #FFF;
+}
+
+.call-title span{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.call-title p {
+  color: #E5E7EB;
+  font-weight: 300;
+}
+
+.call a {
+  text-decoration: none;
+  color: #FFF;
+  border: 1px solid #FFF;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+}
