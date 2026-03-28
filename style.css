@@ -4,7 +4,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
+  scroll-behavior: smooth; 
 }
 
 body {
@@ -94,6 +95,7 @@ img {
   padding: 12px 24px;
   border-radius: 8px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .right img{
