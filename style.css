@@ -105,11 +105,14 @@ img {
 /* SEÇÃO DOS CARDS */
 
 .more-info{
+  max-width: 960px;
+  margin: 0 auto;
   height: 70vh;
   padding: 56px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
   gap: 56px;
 }
 
@@ -134,4 +137,32 @@ img {
 
 .card-img img{
   border-radius: 8px;
+}
+
+/* SECAO DA FRASE */
+
+.quote-bg{
+  background-color: #E5E7EB;
+  height: 60vh;
+}
+
+.container-quote{
+  max-width: 960px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 56px 0;
+}
+
+.container-quote strong{
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.container-quote span{
+  font-size: 18px;
+  text-align: right;
 }
